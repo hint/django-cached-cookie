@@ -1,4 +1,4 @@
-Not read for production yet!
+Not ready for production yet!
 
 Goals:
 
@@ -11,7 +11,7 @@ Goals:
 2. Easy retrieval of the cookie:
 
 >>> import cached_cookie
->>> data = cached_cookie.set(request, key)
+>>> data = cached_cookie.get(request, key)
 >>> data
 {'lorem': 'ipsum dolor sit amet'}
 
